@@ -1,1 +1,1 @@
-# EPI
+# A walkthrough of the book "Element of Programming Interviews"
