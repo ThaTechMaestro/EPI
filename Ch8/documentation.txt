@@ -1,0 +1,17 @@
+Continue from:
+
+    Procedure 1
+    Attempt the question individually
+        Observe your thought process
+        Write them down as comments
+        Note the wrong assumptions or questions(that's where you learn)
+        Write down where you got stuck and what exactly you find confusing
+        Compare with the ideal solution you had in mind or were following
+
+
+    Procedure 2
+    Look at other engineers solution and learn from it
+        Understand the space and time complexity
+        The important idea behind their implementation
+        Seek to learn something new from it 
+        Repeat Procedure 1
