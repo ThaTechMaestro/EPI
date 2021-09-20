@@ -84,6 +84,12 @@ def is_well_formed(s):
       #Store the open parentheis
       open_symb_store.append(symbol)
 
+    # A not statement means the false condition evaluates to true
+    # In our case, if we have an empty open symbol store (edge case)
+    # This works for inputs such as "))))))"
+    elif not open_symb_store:
+      return False 
+
     # Based on our open symbol store
     # We check if the recently added open symbolto our store has a matching closing symbol
     # This is where the stack comes in
@@ -92,11 +98,7 @@ def is_well_formed(s):
     elif lookup_table[open_symb_store.pop()] != symbol:
       return False
     
-    # A not statement means the false condition evaluates to true
-    # In our case, if we have an empty open symbol store (edge case)
-    # This works for inputs such as "))))))"
-    elif not open_symb_store:
-      return False 
+  
   
   # In cases where we have an empty string (edge case)
   #   A nice question will be what should we return when we have an empty input?

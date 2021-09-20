@@ -5,7 +5,17 @@ Continue from:
         Observe your thought process
         Write them down as comments
         Note the wrong assumptions or questions(that's where you learn)
+            (8.3)
+            First wrong assumption was checking if my open_symbol_store was empty
+            after we performed a pop operation, which in some cases it will.
+            The catch for that test condition was to check if everytime we check to see if 
+                we can append to a stack, if it is empty we have a closing bracket input
+                which automatically renders the input invalid
+
         Write down where you got stuck and what exactly you find confusing
+            Understanding the code for a test input of "()("
+            mismatching input in cases of "()[)"
+
         Compare with the ideal solution you had in mind or were following
 
 
