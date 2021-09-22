@@ -19,9 +19,15 @@ Continue from:
         Compare with the ideal solution you had in mind or were following
 
 
-    Procedure 2
+    Procedure 2 (Here)
     Look at other engineers solution and learn from it
         Understand the space and time complexity
         The important idea behind their implementation
         Seek to learn something new from it 
         Repeat Procedure 1
+    
+
+    Procedure 3:
+        After submitting question on Leetocode:
+            Check the next recommended questions.
+                Continue from: Check test.py

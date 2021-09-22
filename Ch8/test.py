@@ -1,18 +1,18 @@
 def test_valid_parenthesis(s):
 
 
-    open_symbol = []
-    symbol_lookup_table = {'{':'}', '(':')', '[':']'}
+    stack = []
 
-    for symbol in s:
+    length = len(s)
 
-        if symbol in symbol_lookup_table:
-            open_symbol.append(symbol)
-        elif not open_symbol:
-            return False
-        elif symbol != symbol_lookup_table[open_symbol.pop()]:
-            return False
-        
-    
-    return not open_symbol
+    for i in range(length):
+
+        stack_len = len(stack)
+
+        if stack_len == 0:
+            stack.append(s[i])
+        elif s[i] == ")" and stack[stack_len-1] == "(":
+            stack.pop(stack_len - 1)
+        elif s[i] == "}" and stack[stack_len-1] == "{":
+            stack.pop(stack_len-1)
 
