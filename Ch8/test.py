@@ -2,21 +2,22 @@
 # Checking a new solution
 # I will continue from here tommorow morning
 
-def test_valid_parenthesis(s):
+def is_valid(s):
+  stack = []
+  length_of_symbol = len(s)
 
+  for i in range(length_of_symbol):
+    length_of_stack = len(stack)
 
-    stack = []
-
-    length = len(s)
-
-    for i in range(length):
-
-        stack_len = len(stack)
-
-        if stack_len == 0:
-            stack.append(s[i])
-        elif s[i] == ")" and stack[stack_len-1] == "(":
-            stack.pop(stack_len - 1)
-        elif s[i] == "}" and stack[stack_len-1] == "{":
-            stack.pop(stack_len-1)
-
+    if length_of_stack == 0:
+      stack.append(s[i])
+    elif s[i] == ")" and stack[length_of_stack - 1] == "(":
+      stack.pop(length_of_stack-1)
+    elif s[i] == "}" and stack[length_of_stack - 1] == "{":
+      stack.pop(length_of_stack - 1)
+    elif s[i] == "]" and stack[length_of_stack - 1] == "[":
+      stack.pop(length_of_stack - 1)
+    else:
+      stack.append(s[i])
+    
+    return len(stack) == 0
