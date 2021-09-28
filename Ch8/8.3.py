@@ -15,58 +15,8 @@ What amazes me is
   8.3 in EPI
 
 '''
-
-'''
-For structures in Python:
-Normal Evaluation
-Is it initialised? - True (Proceed)
-or
-Is it empty? - False (Proceed)
-
-Not -- Changes the structure 
-It evaluates the Normal False statement
-and neglects the Normal True statement
-
-Is it empty ? - True
-
-Is it initialised ? - False
-
-------------------------------
-  
-'''
-
-
-'''
-a = []
-
-if not a:
-  print(True)
-else:
-  print(False)
-
-'''
-
-#https://leetcode.com/problems/valid-parentheses/discuss/?currentPage=1&orderBy=hot&query=
-
-
-#------------------------------
-#Style 1
-def is_well_formed(s):
-
-  open_symb_store = []
-
-  symbol_lookup_table = {'(':')', '{':'}', '[':']'}
-
-  for symbol in s:
-    if symbol in symbol_lookup_table:
-      open_symb_store.append(symbol)
-    elif not open_symb_store or symbol_lookup_table[open_symb_store.pop()] != symbol:
-      return False 
-  
-  return not open_symb_store
-
 #-----------------------------------------
-# Style 2
+# Style 1
 # What important thing did you learn from this style
 #   that will help your problem solving skills moving forward
 
@@ -105,6 +55,12 @@ def is_well_formed(s):
   # We return True statement, meaning we have a valid parentheis
   return not open_symb_Store
 
+'''
+Time complexity: O(n)
+
+Learn how to calculate space complexity
+Space Complexity: O(n)
+'''
 #-------------------------------------------------
 
 
