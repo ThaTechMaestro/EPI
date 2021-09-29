@@ -40,3 +40,7 @@ Continue from:
                     Most votes 
 
                 Learn from the awesome solutions
+
+    Progress Updates:
+        Correctly understood alt_soln1.py and its relationship with 8.3.py
+        I can also implement it correctly having learning from countless mistakes
