@@ -30,7 +30,7 @@ Continue from:
     Procedure 3:
         After submitting question on Leetocode:
             Check the next recommended questions.
-                Continue from: https://leetcode.com/problems/valid-parentheses/discuss/1452606/Why-is-this-wrong
+                Continue from: https://leetcode.com/problems/valid-parentheses/discuss/1452606/Why-is-this-wrong 
                 https://leetcode.com/problems/valid-parentheses/discuss/1412458/Python%3A-FASTER-than-96-or-LESS-MEMORY-97
                 https://leetcode.com/problems/valid-parentheses/discuss/?currentPage=1&orderBy=most_votes&query=&tag=python&tag=python-3
 
@@ -43,4 +43,5 @@ Continue from:
 
     Progress Updates:
         Correctly understood alt_soln1.py and its relationship with 8.3.py
+        Correctly understood alt_sol.py
         I can also implement it correctly having learning from countless mistakes
