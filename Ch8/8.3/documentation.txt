@@ -32,7 +32,7 @@ Continue from:
             Check the next recommended questions.
                 Continue from: https://leetcode.com/problems/valid-parentheses/discuss/1452606/Why-is-this-wrong 
                 https://leetcode.com/problems/valid-parentheses/discuss/1412458/Python%3A-FASTER-than-96-or-LESS-MEMORY-97
-                https://leetcode.com/problems/valid-parentheses/discuss/?currentPage=1&orderBy=most_votes&query=&tag=python&tag=python-3
+            
 
                 The tags: Python 
                 Then click on:
@@ -40,8 +40,14 @@ Continue from:
                     Most votes 
 
                 Learn from the awesome solutions
+    
+    Improvements:
+        Note your mistakes
+        Whenever you restructure any solution be sure to post it, someone might find it helpful
+        Comment your code, write for everyone not only yourself.
 
     Progress Updates:
         Correctly understood alt_soln1.py and its relationship with 8.3.py
         Correctly understood alt_sol.py
         I can also implement it correctly having learning from countless mistakes
+        Learnt from a solution to this problem implemented in 5Lines
