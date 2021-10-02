@@ -1,0 +1,8 @@
+Stacks can be implemented as:
+    Arrays
+    LinkedList
+
+
+Array Implementation:
+    Push operation: 
+    Pop operation: 
