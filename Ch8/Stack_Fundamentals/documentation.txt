@@ -6,3 +6,5 @@ Stacks can be implemented as:
 Array Implementation:
     Push operation: 
     Pop operation: 
+
+Implement stack as an array from scratch again
