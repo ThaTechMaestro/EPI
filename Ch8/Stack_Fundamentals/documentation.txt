@@ -7,4 +7,9 @@ Array Implementation:
     Push operation: 
     Pop operation: 
 
+
 Implement stack as an array from scratch again
+Continue From:
+    Stacks:
+        Video: 037
+            Timestamp: 2:53
