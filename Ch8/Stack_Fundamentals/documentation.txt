@@ -8,7 +8,7 @@ Array Implementation:
     Pop operation: 
 
 
-Implement stack as an array from scratch again
+Implement stack as an array from scratch again(40%)
 Continue From:
     Stacks:
         Video: 037
