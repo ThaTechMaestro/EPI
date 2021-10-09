@@ -12,15 +12,8 @@ Implement stack as an array from scratch again(40%)
 Continue From:
     Stacks:
         Video: 037
-            Timestamp: 2:53
+            Timestamp: 5:00
 
 --------------------------
 Progress for today:
-    Trying to understand use of the following OOP concepts in Python:
-    self keyword
-    __new__ method
-    __init__ method
-    Use of self keyword
-    Static methods 
-
-    This will help in understanding implementation of stacks from scratch
+    COmplete impleentation of stack from scratch
