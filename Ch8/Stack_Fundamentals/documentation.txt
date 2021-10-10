@@ -16,4 +16,4 @@ Continue From:
 
 --------------------------
 Progress for today:
-    COmplete impleentation of stack from scratch
+    Looked at solution to problem 8.1 in EPI
