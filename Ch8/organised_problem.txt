@@ -1,0 +1,9 @@
+This is a list containing the order in which problems should be attempted for efficient understanding
+
+Data Structure: Stack
+
+Pre-requisite:
+Have a basic understanding on how to implement a stack and the possible actions that can be performed on a stack yourself.
+
+Problem List:
+https://leetcode.com/problems/min-stack/
