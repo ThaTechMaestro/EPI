@@ -1,6 +1,6 @@
 Continue From Here:
 Check out this solution and see if you can learn something new:
-https://leetcode.com/problems/min-stack/discuss/747181/Clear-Python-code-faster-than-96
+https://leetcode.com/problems/min-stack/discuss/747181/Clear-Python-code-faster-than-96 (Looked at this)
 https://leetcode.com/problems/min-stack/discuss/1090123/clean-code-of-python-with-comments-without-additional-variable-for-size.
 https://leetcode.com/problems/min-stack/discuss/572831/Python3-solution-with-O(1)-time-using-one-stack
 https://leetcode.com/problems/min-stack/discuss/747181/Clear-Python-code-faster-than-96
