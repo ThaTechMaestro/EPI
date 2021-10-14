@@ -93,6 +93,7 @@ One Line explanation:
             and using a stack of previous min values
             to update the current min value 
 
+It uses an extra data structure and performs operation in constant time
 Time Complexity: O(1)
 Space Complexity: 
 '''
@@ -151,3 +152,65 @@ class MinStack(object):
         return self.min_value
         
         
+#------------------------------------------------------------------------------------------------------------    
+'''
+Alternative Solution2:
+https://leetcode.com/problems/min-stack/discuss/572831/Python3-solution-with-O(1)-time-using-one-stack
+
+Initialisations
+    - An empty stack
+    - A variable serves as a placeholder for current min_value
+
+One Line explanation:
+    It stores element in a stack as tuples (a,b),
+        a represent element to be pushed or popped
+        b represent the previous min value in the stack
+
+It uses a single stack and performs operation in constant time
+Time Complexity: O(1)
+Space Complexity: 
+'''
+
+
+
+
+class MinStack:
+
+  def __init__(self):
+
+    self.stack = []
+
+    self.current_min = float('inf')
+
+
+
+  def push(self, x):
+
+    if len(self.stack) == 0:
+      self.stack.append((x,None))
+      self.current_min = x
+    else:
+      # We only add previous min value as tuples with the current min value
+      if x <= self.current_min:
+        self.stack.append((x, self.current_min))
+        self.current_min = x
+      else:
+        self.stack.append((x, None))
+      
+  
+  def pop(self): 
+
+    temp =  self.stack.pop()
+
+    if temp[0] == self.current_min:
+      self.current_min = temp[1]
+
+
+    
+  def top(self):
+    return self.stack[-1][0]
+    
+
+    
+  def getMin(self):
+    return self.current_min

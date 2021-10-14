@@ -7,6 +7,12 @@ Looked at this:
 Well Explained Solution(learnt from the Comments):
     https://leetcode.com/problems/min-stack/discuss/1090123/clean-code-of-python-with-comments-without-additional-variable-for-size. 
 
+(Done)
 https://leetcode.com/problems/min-stack/discuss/572831/Python3-solution-with-O(1)-time-using-one-stack
-https://leetcode.com/problems/min-stack/discuss/747181/Clear-Python-code-faster-than-96
+
+
+(Done--> There is a nice comment about follow up question in the comment sectio)
+(Won't be using this as it makes use of inbuilt min function which is O(n))
 https://leetcode.com/problems/min-stack/discuss/49183/Python-one-stack-solution-without-linklist
+
+Look at the question in EPI(8.1)
