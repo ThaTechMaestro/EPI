@@ -16,5 +16,6 @@ https://leetcode.com/problems/min-stack/discuss/572831/Python3-solution-with-O(1
 https://leetcode.com/problems/min-stack/discuss/49183/Python-one-stack-solution-without-linklist
 
 
-(Still on this, understanding level: 40%)
+(Still on this, understanding level: 50%)
+(Looked at a bit of Java Fundamentals)
 Look at the question in EPI(8.1)
