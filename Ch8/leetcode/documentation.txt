@@ -17,5 +17,6 @@ https://leetcode.com/problems/min-stack/discuss/49183/Python-one-stack-solution-
 
 
 (Still on this, understanding level: 50%)
-(Looked at a bit of Java Fundamentals)
+(Looked at a bit of Java Fundamentals: 5%)
+(Create a Repo for this)
 Look at the question in EPI(8.1)
