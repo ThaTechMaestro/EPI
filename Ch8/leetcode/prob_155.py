@@ -154,7 +154,7 @@ class MinStack(object):
         
 #------------------------------------------------------------------------------------------------------------    
 '''
-Alternative Solution2:
+Alternative Solution2: (Best Solution)
 https://leetcode.com/problems/min-stack/discuss/572831/Python3-solution-with-O(1)-time-using-one-stack
 
 Initialisations
