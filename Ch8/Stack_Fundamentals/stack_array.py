@@ -6,8 +6,13 @@ class Stack:
 
 #--- Definition of attributes
 #--- What are the properties which upon instantiation can make a stack object unique
-
+  
+  # The code below can be interpreted as
+  # Upon creating a stack object it should have
   def __init__(self):
+        
+    #An internal array structure called Structure/Stack
+    # Should be created
     self.structure = []
 
 
