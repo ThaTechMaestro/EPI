@@ -1,0 +1,13 @@
+Node:
+    A single block of a linked list which can store
+        values and link/next(pointers)
+
+Linked List:
+    It is a made up of a collection of nodes objects
+    It has actions/methods for playing around with these node objects 
+    Nodes are modelled as individual object 
+
+
+
+
+Unclear Parts or Areas
