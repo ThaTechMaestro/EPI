@@ -59,8 +59,11 @@ class Solution(object):
 
         The memory is not constant or clearly defined from the onset
 
-        Time Taken: 33mins
+        Time Complexity: O(n)
+        Space Complecity: O(n)
 
+
+        Time Taken: 33mins
 
         '''
 
@@ -91,6 +94,15 @@ class Solution(object):
 
          Naive  Using two pointers (Fast and slow)
 
+
+        Personalised interpretation for fast and slow pointers
+            For every number of steps made by the slow pointer from the starting point
+            The fast pointer makes twice the number of those steps
+                Hence these favors even number of nodes in a linked list
+                In cases of odd number of nodes in a linked list, the use of None object is used  to make  it even numbered,
+                    hence the slow pointer always points to the  middle of the node
+
+
         Strategy: 
 
         Mistake Code pieces:
@@ -119,7 +131,7 @@ class Solution(object):
         slow = head 
 
 
-
+        #(Continue from here)--------------
         # Find middle (using slow pointer)
         while fast and fast.next:
             '''

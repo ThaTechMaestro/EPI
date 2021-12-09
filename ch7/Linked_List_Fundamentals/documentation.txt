@@ -11,3 +11,6 @@ Linked List:
 
 
 Unclear Parts or Areas
+    What the head is 
+
+    Difference between equality and use of a pointer 
