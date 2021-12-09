@@ -103,7 +103,24 @@ class Solution(object):
                     hence the slow pointer always points to the  middle of the node
 
 
-        Strategy: 
+        STRATEGY:
+            It is using a linkedlist
+            The actual test for palindrome involves the use of indexes and values:
+                Using two pointers, compare the values of their index start at the extreme ends (far left and far right indices)
+                Since this is a linked list
+                    We use fast and slow pointers to get the mid node and last node
+                    The purpose of mid node is to aid the test for palindrome, since it involves comparison from two opposite extreme postions
+                        and we are using a singly linked list
+                    We would have to reverse the second half of the linked list
+                        Then perform the actual test for palindrome
+                            It is this long since linkedlist uses pointers, hence we have to rearrange the structure to apply the algorithm
+
+            Summary:    
+                Rearrange the linkedlist structure then apply the palindrome test/algorithm on it. 
+
+                    Palindrome algorithm:
+                        Compare the values of the extreme opposite indices (left and right indices) on the specified data structure
+                            If they match before they cross paths or point to an intersecting value, hence it is a palindrome
 
         Mistake Code pieces:
                     
@@ -118,21 +135,24 @@ class Solution(object):
                 the end node in the list
             
             We can then keep using the beginning and end node to
-                check if it is a palindrome
+                check if it is a palindrome (Nope, this is to alter the structure to suit the application of the required algorithm)
             
             What is the purpose of the slow pointer node?
+                To point to the mid node and help with reversal
 
-        Time Taken: 
+        Time Complexity: O(n)
+        Space Complecity: O(n)
 
 
         '''
 
+
+        '''
+        Get the Middle Node
+        Let it point to None
+        '''
         fast = head 
         slow = head 
-
-
-        #(Continue from here)--------------
-        # Find middle (using slow pointer)
         while fast and fast.next:
             '''
             The condition above helps the fast pointer always point to
@@ -152,17 +172,31 @@ class Solution(object):
             fast = fast.next.next
             slow = slow.next
         
-        # reverse second half
-
+        
+        '''
+        Reverse the left half of the linked list
+        '''
         prev = None
-
-        #Look through reversing a linkedlist again(understand this), get the the reversing a linkedlist picture right
         while slow:
             temp = slow.next
             slow.next = prev 
             prev = slow
             slow = temp 
-      
+
+
+        #Test For palindrome
+        left_pointer = head
+        right_pointer = prev 
+        while right_pointer:
+
+            if right_pointer.val != left_pointer.val:
+                return False 
+            
+            left_pointer = head 
+            right_pointer = prev 
+        
+        return True
+
 
 
         
