@@ -179,7 +179,9 @@ class Solution(object):
         prev = None
         while slow:
             temp = slow.next
+            #Actual reversal
             slow.next = prev 
+
             prev = slow
             slow = temp 
 
@@ -198,9 +200,11 @@ class Solution(object):
         return True
 
 
+
 '''
-Continue from Here
-Check the discussion section
+
+Last discussion to be reviewed:
+https://leetcode.com/problems/palindrome-linked-list/discuss/64689/Python-easy-to-understand-solution-with-comments-(operate-nodes-directly).
 '''
 
 
@@ -218,6 +222,4 @@ Check the discussion section
 
 
 #------------------------------------------------------------------------------------------------------------->>>>>>
-
-
 
