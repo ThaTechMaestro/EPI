@@ -141,7 +141,7 @@ class Solution(object):
                 To point to the mid node and help with reversal
 
         Time Complexity: O(n)
-        Space Complecity: O(n)
+        Space Complecity: O(1)
 
 
         '''
